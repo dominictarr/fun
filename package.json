@@ -7,13 +7,15 @@
     "type": "git",
     "url": "git://github.com/dominictarr/fun.git"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "libnested": "^1.2.1",
+    "mkdirp": "^0.5.1",
+    "tape": "^4.7.0"
   },
   "scripts": {
     "test": "set -e; for t in test/*.js; do node $t; done"
   },
   "author": "'Dominic Tarr' <dominic.tarr@gmail.com> (dominictarr.com)",
-  "license": "MIT"  
+  "license": "MIT"
 }
